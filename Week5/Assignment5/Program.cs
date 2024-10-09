@@ -27,8 +27,18 @@ namespace Assignment5
             }
 
             Console.WriteLine("\nDisplaying all persons:");
-            persons[0].PrintPersonArray(persons);
+            PrintPersonArray(persons);
 
+        }
+
+        public void PrintPersonArray(Person[] persons)
+        {
+            for (int i = 0; i < persons.Length; i++)
+            {
+                Console.WriteLine($"Person {i + 1}: ");
+                persons[i].DisplayPersonInfo();
+                Console.WriteLine();
+            }
         }
     }
 }

@@ -8,7 +8,7 @@ namespace Assignment3
         public int[] numbers = new int[3];
 
 
-        public int CalculateSum(int[] numbers)
+        public int CalculateSum()
         {
             int sum = 0;
             for (int i = 0; i < numbers.Length; i++)
@@ -18,9 +18,9 @@ namespace Assignment3
             return sum;
         }
 
-        public double CalculateAverage(int[] numbers)
+        public double CalculateAverage()
         {
-            int sum = CalculateSum(numbers);
+            int sum = CalculateSum();
             return (double)sum / numbers.Length;
         }
     }

@@ -22,8 +22,8 @@ namespace Assignment3
 
             
 
-            int sum = integers.CalculateSum(integers.numbers);
-            double average = integers.CalculateAverage(integers.numbers); 
+            int sum = integers.CalculateSum();
+            double average = integers.CalculateAverage(); 
 
             Console.WriteLine($"Sum: {sum}");
             Console.WriteLine($"Average: {average:0.00}");

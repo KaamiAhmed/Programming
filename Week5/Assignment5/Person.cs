@@ -20,14 +20,5 @@ namespace Assignment5
             Console.WriteLine($"Age: {age}");
         }
 
-        public void PrintPersonArray(Person[] persons)
-        {
-            for (int i = 0; i < persons.Length; i++)
-            {
-                Console.WriteLine($"Person {i + 1}: ");
-                persons[i].DisplayPersonInfo();
-                Console.WriteLine();
-            }
-        }
     }
 }
