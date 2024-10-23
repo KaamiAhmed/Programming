@@ -16,9 +16,9 @@
 
         void PlayGuessingGame(int numberToGuess)
         {
-            int attempts = 0, userInput = 0;
-            
-            while (userInput != numberToGuess)
+            int attempts = 0, userInput;
+
+            do
             {
                 Console.Write("Guess a number between 1 and 100: ");
                 userInput = int.Parse(Console.ReadLine());
@@ -27,7 +27,7 @@
                 {
                     Console.WriteLine("Too low. Try again.");
                 }
-                else if(userInput > numberToGuess)
+                else if (userInput > numberToGuess)
                 {
                     Console.WriteLine("Too high. Try again.");
                 }
@@ -35,7 +35,7 @@
                 {
                     Console.WriteLine($"Congratulations! You guessed the number in {attempts} attempts.");
                 }
-            }
+            } while (userInput != numberToGuess);
         }
 
         int GenerateRandomNumber()

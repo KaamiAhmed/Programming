@@ -17,7 +17,7 @@
             double average = CalculateAverage(sum, count);
 
             Console.WriteLine($"The sum is: {sum}");
-            Console.WriteLine($"The average is: {average}");
+            Console.WriteLine($"The average is: {average:0.00}");
         }
 
         int CalculateSum(int count)

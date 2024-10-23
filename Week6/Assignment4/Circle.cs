@@ -4,14 +4,14 @@ namespace Assignment4
     internal class Circle
     {
 
-        const double Pi = 3.14;
+        //const double Pi = 3.14;
 
         private double _radius;
         public double Area
         {
             get
             {
-                return Pi * (_radius * _radius);
+                return Math.PI * (_radius * _radius);
             }
         }
 

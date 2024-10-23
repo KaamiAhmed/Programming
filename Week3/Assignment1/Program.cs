@@ -15,7 +15,7 @@
             Console.Write("Enter a positive integer: ");
             number = int.Parse(Console.ReadLine());
 
-            sum = (CalculateSum(number));
+            sum = CalculateSum(number);
 
             Console.WriteLine($"The sum of natural numbers from 1 to {number} is: {sum}");
 

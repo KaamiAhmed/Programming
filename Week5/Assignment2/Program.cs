@@ -19,17 +19,9 @@ namespace Assignment2
             switch (day)
             {
                 case Day.Monday:
-                    Console.WriteLine($"Weekend is loading...");
-                    break;
                 case Day.Tuesday:
-                    Console.WriteLine($"Weekend is loading...");
-                    break;
                 case Day.Wednesday:
-                    Console.WriteLine($"Weekend is loading...");
-                    break;
                 case Day.Thursday:
-                    Console.WriteLine($"Weekend is loading...");
-                    break;
                 case Day.Friday:
                     Console.WriteLine($"Weekend is loading...");
                     break;
